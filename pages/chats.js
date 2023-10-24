@@ -1,7 +1,7 @@
 
 import  { useState, useEffect, useContext } from "react";
 
-import { Context } from "@/context/index";
+import { Context } from "../context";
 
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
